@@ -6,7 +6,7 @@ var Socket = require("net")
   chroma = require('chroma-js');
 var socket = new Socket();
 socket.setNoDelay();
-socket.connect(7890,'192.168.64.218');
+socket.connect(7890);
 // Create an Open Pixel Control stream and pipe it to the server 
 var createOPCStream = require("opc");
 var stream = createOPCStream();
