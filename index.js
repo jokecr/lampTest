@@ -1,6 +1,7 @@
 // Create TCP connection to Open Pixel Control server 
 var Socket = require("net")
   .Socket,
+  wpi = require('wiring-pi'),
   _ = require('underscore'),
   async = require('async'),
   chroma = require('chroma-js');

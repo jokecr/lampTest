@@ -9,12 +9,10 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "wiring-pi": "*",
     "opc": "~1.1.2",
     "underscore": "~1.8.3",
     "async": "~1.0.0",
-    "hsl-to-rgb": "~1.0.0",
-    "color-system": "~0.1.0",
-    "tinycolor2": "~1.1.2",
     "chroma-js": "~0.7.4"
   }
 }
